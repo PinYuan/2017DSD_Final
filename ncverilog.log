@@ -1,0 +1,136 @@
+ncverilog: 14.10-s005: (c) Copyright 1995-2014 Cadence Design Systems, Inc.
+TOOL:	ncverilog	14.10-s005: Started on Jan 09, 2018 at 14:16:42 CST
+ncverilog
+	testbench_pcpi.v
+	final_pcpi.v
+	picorv32.v
+	+define+COMPRESSED_ISA
+	+access+r
+Loading snapshot worklib.testbench:v .................... Done
+*Verdi3* Loading libsscore_ius141.so
+*Verdi3* : Enable Parallel Dumping.
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+Hi, welcome to Tic-Tac-Toe
+Do you wanna go first? (1/0)
+- - - 
+- - - 
+- - - 
+-----------------
+It's player turn
+Where do you want to put your mark? (1~9)
+- - - 
+- X - 
+- - - 
+-----------------
+It's AI turn
+O - - 
+- X - 
+- - - 
+-----------------
+It's player turn
+Where do you want to put your mark? (1~9)
+O - X 
+- X - 
+- - - 
+-----------------
+It's AI turn
+O - X 
+- X - 
+O - - 
+-----------------
+It's player turn
+Where do you want to put your mark? (1~9)
+O - X 
+X X - 
+O - - 
+-----------------
+It's AI turn
+O - X 
+X X O 
+O - - 
+-----------------
+It's player turn
+Where do you want to put your mark? (1~9)
+=== 7 has been occupied===
+===Please place your mark in the empty position.===
+Where do you want to put your mark? (1~9)
+O - X 
+X X O 
+O X - 
+-----------------
+It's AI turn
+O O X 
+X X O 
+O X - 
+-----------------
+It's player turn
+Where do you want to put your mark? (1~9)
+O O X 
+X X O 
+O X X 
+-----------------
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+             ....              .@           &                                   
+         .@O#####=^            +$          .$            .=     .=+==&+@@^.     
+        +$#########@           ##@         ^#^           +#.    @##########@    
+       +############&         @##O         @#=          .##.    @##########^    
+      +###$@^^@O#####&        O##$         +#$          O##@    @##$=O$$###.    
+      ###O      @O###$        $###@        =##.        +###+    @##O     .@     
+     =##$         =##@       @####O        O##+       .$###=    &##$            
+    .###@          =+        O#$+##.       $##$       =####O    +##$            
+    ^###                     ##=^##&       ####^     .#####$    =##$            
+    @##+                    +##^ $#$      .####+     $##$O##    +###$$O$$$O     
+    +##@                    ##$  +##^     @##O#$    =###^O##.   +#########$     
+    =##^             .     &##&  @##=     +##=$#.  ^###= O##^   +#########$     
+    O##.      @#######=    $##.  .###     O##@=#@  $###. O##@   +###OOOO=+&     
+    O##^      @#######=   @###OO$####@    O##@^#$ @###+  $##&   +###            
+    =##@      ^#######&   O##########O    $##@ $#^O###   $##=   +###            
+    &##$       ^^^.$##^  ^###&@&&@$###.   ###@ O#O###@   O##O   +##O            
+    ^###+          $##   =##O     +###+  .###^ @####=    O##$   +##O            
+     O###&        ^##O  .###.     ^###$  ^###. .$##$     O###   &##=            
+     .$###@       $##&  +##$      .####^ &###   O##@     $###.  @##=   . .      
+      ^O###O&^.^&O##$   $##=       $###+ +###   ^#O      $###^  @###OOO$$$O     
+        =###########^  &###.       +###$ =###    =.      $#$=@  @#########$     
+         &$#######O^   =##O        .O==& .^^@            ^^     .$########O     
+           &OO$=+^      ^&&                                       .@@@@@&+@     
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                       .@...^^^...   +&@    +&==@@@^.                           
+                       @##########^ .###   @#########$@                         
+                       .##########^ .###   ^##########@                         
+                        ##########@ .###   ^###OO$$###^                         
+                        $$==###O+=^  ###   @##$.   .^&                          
+                        .   ###@     ###   &##$                                 
+                            ###@     ###   &##$                                 
+                            ###&     ###   +##$                                 
+                            ###+     ###.  &###OOOO$O$                          
+                            ###=     ###.  &##########                          
+                            $##=     ###.  &##########                          
+                            O##O     ###.  &###$$$O===                          
+                            O##$     ###^  &###.                                
+                            O###     ###^  &###.                                
+                            +###     ###@  &##$                                 
+                            +###    .###&  &##$                                 
+                            +###     ###&  &##$                                 
+                            +###     ###&  @##$                                 
+                            +###     ###&  @###=OO$O$#                          
+                            +##$     ###&  ^##########                          
+                            O###.    $##+   ##########                          
+                            $#$#.    +==&   ..&&&&&+=+                          
+                            $=+=.    ....     ........                          
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Do you wanna play again Tic-Tac-Toe? (1/0)
+Simulation interrupted at 118056060 NS + 2
+ncsim> exit
+TOOL:	ncverilog	14.10-s005: Exiting on Jan 09, 2018 at 14:19:32 CST  (total: 00:02:50)

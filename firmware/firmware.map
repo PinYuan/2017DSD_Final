@@ -1,0 +1,104 @@
+Archive member included to satisfy reference by file (symbol)
+
+/users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldi3.o)
+                              firmware/knn_mmap.o (__mulsi3)
+/users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(div.o)
+                              firmware/final_pcpi.o (__divsi3)
+
+Discarded input sections
+
+ .debug_line    0x0000000000000000       0xb7 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldi3.o)
+ .debug_info    0x0000000000000000       0xe2 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldi3.o)
+ .debug_abbrev  0x0000000000000000       0x14 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldi3.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldi3.o)
+ .debug_line    0x0000000000000000      0x18d /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(div.o)
+ .debug_info    0x0000000000000000       0xdf /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(div.o)
+ .debug_abbrev  0x0000000000000000       0x14 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(div.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(div.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+mem              0x0000000000000000 0x0000000000bf0000
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+
+.memory         0x0000000000000000     0x1ced
+                0x0000000000000000                . = 0x0
+ start*(.text)
+ *(.text)
+ .text          0x0000000000000000      0x4ac firmware/start.o
+                0x00000000000004a6                hard_final_pcpi
+ .text          0x00000000000004ac      0x3ea firmware/irq.o
+                0x00000000000004ac                irq
+ .text          0x0000000000000896      0x13c firmware/print.o
+                0x0000000000000896                print_chr
+                0x00000000000008b4                print_str
+                0x00000000000008e8                print_dec
+                0x000000000000097a                print_hex
+ .text          0x00000000000009d2      0xa50 firmware/final_pcpi.o
+                0x00000000000009d2                final_pcpi
+                0x0000000000000b84                Intialize_chessboard
+                0x0000000000000bf8                Player_game
+                0x0000000000000cf4                Minimax
+                0x0000000000001030                AI_game
+                0x00000000000011c0                Print_chessboard
+                0x0000000000001288                Check_game_status
+ .text          0x0000000000001422      0x2c2 firmware/knn_mmap.o
+                0x0000000000001422                knn_mmap
+ .text          0x00000000000016e4      0x1b8 firmware/stats.o
+                0x00000000000017de                stats
+                0x0000000000001882                tick
+ *fill*         0x000000000000189c        0x0 
+ .text          0x000000000000189c       0x24 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldi3.o)
+                0x000000000000189c                __mulsi3
+ .text          0x00000000000018c0       0xb4 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(div.o)
+                0x00000000000018c0                __divsi3
+                0x00000000000018c8                __udivsi3
+                0x0000000000001910                __umodsi3
+                0x0000000000001944                __modsi3
+ *(*)
+ .data          0x0000000000001974        0x0 firmware/start.o
+ .bss           0x0000000000001974        0x0 firmware/start.o
+ .rela.text     0x0000000000001974        0x0 firmware/start.o
+ .data          0x0000000000001974        0x0 firmware/irq.o
+ .bss           0x0000000000001974        0xc firmware/irq.o
+ .rodata        0x0000000000001980      0x16b firmware/irq.o
+ .comment       0x0000000000001aeb       0x11 firmware/irq.o
+                                         0x12 (size before relaxing)
+ .data          0x0000000000001afc        0x0 firmware/print.o
+ .bss           0x0000000000001afc        0x0 firmware/print.o
+ .rodata        0x0000000000001afc       0x11 firmware/print.o
+ .comment       0x0000000000001b0d       0x12 firmware/print.o
+ .data          0x0000000000001b0d        0x0 firmware/final_pcpi.o
+ .bss           0x0000000000001b0d        0x0 firmware/final_pcpi.o
+ *fill*         0x0000000000001b0d        0x3 
+ .rodata        0x0000000000001b10      0x177 firmware/final_pcpi.o
+ .comment       0x0000000000001c87       0x12 firmware/final_pcpi.o
+ .data          0x0000000000001c87        0x0 firmware/knn_mmap.o
+ .bss           0x0000000000001c87        0x0 firmware/knn_mmap.o
+ *fill*         0x0000000000001c87        0x1 
+ .rodata        0x0000000000001c88       0x1e firmware/knn_mmap.o
+ .comment       0x0000000000001ca6       0x12 firmware/knn_mmap.o
+ .data          0x0000000000001ca6        0x0 firmware/stats.o
+ .bss           0x0000000000001ca6        0x0 firmware/stats.o
+ *fill*         0x0000000000001ca6        0x2 
+ .rodata        0x0000000000001ca8       0x45 firmware/stats.o
+ .comment       0x0000000000001ced       0x12 firmware/stats.o
+ .data          0x0000000000001ced        0x0 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldi3.o)
+ .bss           0x0000000000001ced        0x0 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(muldi3.o)
+ .data          0x0000000000001ced        0x0 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(div.o)
+ .bss           0x0000000000001ced        0x0 /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a(div.o)
+                0x0000000000001cff                end = .
+LOAD firmware/start.o
+LOAD firmware/irq.o
+LOAD firmware/print.o
+LOAD firmware/final_pcpi.o
+LOAD firmware/knn_mmap.o
+LOAD firmware/stats.o
+LOAD /users/course/2017F/cs412500/tools/riscv32i/lib/gcc/riscv32-unknown-elf/7.1.0/libgcc.a
+OUTPUT(firmware/firmware.elf elf32-littleriscv)
